@@ -28,6 +28,7 @@ ini_set('session.cookie_httponly', 1);
  * This is used by the core/Config class.
  */
 return array(
+  "THEME" => "classic",
     /**
      * Configuration for: Base URL
      * This detects your URL/IP incl. sub-folder automatically. You can also deactivate auto-detection and provide the
