@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Application.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Auth.php" server="umsframework.com//public_html/lite/" local="132330285413016867" remote="132330996000000000" Dst="2" />
+<file name="Config.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Controller.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Csrf.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="DatabaseFactory.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Encryption.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Environment.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Filter.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Mail.php" server="umsframework.com//public_html/lite/" local="132329507524437388" remote="132330996000000000" Dst="2" />
+<file name="Redirect.php" server="umsframework.com//public_html/lite/" local="132330284320629279" remote="132330996000000000" Dst="2" />
+<file name="Request.php" server="umsframework.com//public_html/lite/" local="132329507524592470" remote="132330996000000000" Dst="2" />
+<file name="Text.php" server="umsframework.com//public_html/lite/" local="132329507524592470" remote="132330996000000000" Dst="2" />
+<file name="Session.php" server="umsframework.com//public_html/lite/" local="132329507524592470" remote="132330996000000000" Dst="2" />
+<file name="View.php" server="umsframework.com//public_html/lite/" local="132329507524592470" remote="132330996000000000" Dst="2" />
+</dwsync>
