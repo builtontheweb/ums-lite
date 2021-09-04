@@ -5,5 +5,5 @@
 /vendor/
 # don't commit the live version of config
 /application/config/config.live.php
-# dont update Config core model
-# /application/core/Config.php
+# dont update Environment core model
+/application/core/Environment.php
