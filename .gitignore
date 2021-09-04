@@ -7,3 +7,4 @@
 /application/config/config.live.php
 # dont update Environment core model
 /application/core/Environment.php
+/public/home/
