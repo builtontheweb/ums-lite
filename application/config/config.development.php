@@ -28,13 +28,12 @@ ini_set('session.cookie_httponly', 1);
  * This is used by the core/Config class.
  */
 return array(
-     'THEME' => 'classic',
     /**
      * Configuration for: Base URL
      * This detects your URL/IP incl. sub-folder automatically. You can also deactivate auto-detection and provide the
      * URL manually. This should then look like 'http://192.168.33.44/' ! Note the slash in the end.
      */
-    'URL' => 'https://' . $_SERVER['HTTP_HOST'] . str_replace('public', '', dirname($_SERVER['SCRIPT_NAME'])),
+    'URL' => 'http://' . $_SERVER['HTTP_HOST'] . str_replace('public', '', dirname($_SERVER['SCRIPT_NAME'])),
     /**
      * Configuration for: Folders
      * Usually there's no reason to change this.
@@ -64,9 +63,9 @@ return array(
      */
     'DB_TYPE' => 'mysql',
     'DB_HOST' => '127.0.0.1',
-    'DB_NAME' => 'ums',
-    'DB_USER' => 'ums',
-    'DB_PASS' => 'Dest!n123',
+    'DB_NAME' => 'user',
+    'DB_USER' => 'root',
+    'DB_PASS' => '',
     'DB_PORT' => '3306',
     'DB_CHARSET' => 'utf8',
     /**
@@ -97,7 +96,7 @@ return array(
      */
     'COOKIE_RUNTIME' => 1209600,
     'COOKIE_PATH' => '/',
-    'COOKIE_DOMAIN' => ".builtontheweb.co.uk",
+    'COOKIE_DOMAIN' => "",
     'COOKIE_SECURE' => true,
     'COOKIE_HTTP' => true,
     'SESSION_RUNTIME' => 604800,
@@ -135,10 +134,10 @@ return array(
      */
     'EMAIL_USED_MAILER' => 'phpmailer',
     'EMAIL_USE_SMTP' => true,
-    'EMAIL_SMTP_HOST' => 'smtp.eu.mailgun.org',
+    'EMAIL_SMTP_HOST' => 'ssl://smtp.gmail.com',
     'EMAIL_SMTP_AUTH' => true,
-    'EMAIL_SMTP_USERNAME' => 'ums@mbcoltd.co.uk',
-    'EMAIL_SMTP_PASSWORD' => '451b8fdf1f0b9e92b3704d7305276dfd-156db0f1-603898e0',
+    'EMAIL_SMTP_USERNAME' => 'youremail',
+    'EMAIL_SMTP_PASSWORD' => 'yourpassword',
     'EMAIL_SMTP_PORT' => 465,
     'EMAIL_SMTP_ENCRYPTION' => 'ssl',
     /**
