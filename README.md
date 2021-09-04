@@ -60,7 +60,7 @@ composer install
 1. Create an empty database
 2. open *application/config/config.development.php* and edit the following code with your details:
 ```php
-	'DB_TYPE' => 'mysql',
+    'DB_TYPE' => 'mysql',
     'DB_HOST' => '127.0.0.1',
     'DB_NAME' => 'DatabaseName',
     'DB_USER' => 'DatabaseUser',
@@ -71,7 +71,7 @@ composer install
 Find these lines 
 *You will need to use an SMTP enabled email account or us Mailgun SMTP*
 ```php
-	'EMAIL_USED_MAILER' => 'phpmailer',
+    'EMAIL_USED_MAILER' => 'phpmailer',
     'EMAIL_USE_SMTP' => true,
     'EMAIL_SMTP_HOST' => 'mail.yourprovider.com',
     'EMAIL_SMTP_AUTH' => true,
